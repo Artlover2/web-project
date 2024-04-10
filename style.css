@@ -29,6 +29,7 @@ nav ul li a {
 
 main {
   padding: 20px;
+  <form action="/submit-form" method="POST">
 }
 
 footer {
