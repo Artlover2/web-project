@@ -19,18 +19,32 @@
       </ul>
     </nav>
   </header>
-<!DOCTYPE html>
+  
+  <main>
+    <h2>Home Page Content Goes Here</h2>
+    <!-- Add your content here -->
+    <form action="/submit-form" method="POST">
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Submission</title>
+  <title>Interactive Webpage</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Form Submission</h1>
+  <h1>Interactive Webpage</h1> <!set up a name and email section for user input>
 
-  <form id="myForm" action="/submit-form" method="POST">
+  <form id="myForm">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <br>
@@ -40,20 +54,37 @@
     <button type="submit">Submit</button>
   </form>
 
-  <script src="script.js"></script> <!-- Include your client-side JavaScript file -->
+  <div id="hiddenElement" class="hidden">
+    <p>This is a hidden element. Click the button below to toggle its visibility.</p>
+    <button id="toggleButton">Toggle Visibility</button>
+  </div>
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+
+      if (name && email) {
+        alert("Form submitted successfully!");
+        // Here you can perform further actions, like sending data to a server
+      } else {
+        alert("Please fill out all fields.");
+      }
+    });
+
+    document.getElementById("toggleButton").addEventListener("click", function() {
+      var hiddenElement = document.getElementById("hiddenElement");
+      if (hiddenElement.classList.contains("hidden")) {
+        hiddenElement.classList.remove("hidden");
+      } else {
+        hiddenElement.classList.add("hidden");
+      }
+    });
+  </script>
 
 </body>
 </html>
-  <!DOCTYPE html>
-<html>
-<head>
-    <title>Simple Form</title>
-</head>
-<body>
-    <form action="/submit-form" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <button type="submit">Submit</button>
-    </form>
+  </footer>
 </body>
-</html
+</html>
