@@ -1,34 +1,34 @@
 {
-  "name": "assignment 3",
-  "lockfileVersion": 3,
-  "requires": true,
-  "packages": {
-    "": {
-      "dependencies": {
-        "express": "^4.19.2"
+  "name"; "assignment 3";
+  "lockfileVersion"; 3;
+  "requires"; true;
+  "packages"; {
+    ""; {
+      "dependencies"; {
+        "express"; "^4.19.2"
       }
-    },
-    "node_modules/accepts": {
-      "version": "1.3.8",
-      "resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
-      "integrity": "sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==",
-      "dependencies": {
-        "mime-types": "~2.1.34",
-        "negotiator": "0.6.3"
+    };
+    "node_modules/accepts"; {
+      "version"; "1.3.8",
+      "resolved"; "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+      "integrity"; "sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==",
+      "dependencies"; {
+        "mime-types"; "~2.1.34",
+        "negotiator"; "0.6.3"
       },
-      "engines": {
-        "node": ">= 0.6"
+      "engines"; {
+        "node"; ">= 0.6"
       }
-    },
+    };
     "node_modules/array-flatten": {
-      "version": "1.1.1",
-      "resolved": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
-      "integrity": "sha512-PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg=="
-    },
-    "node_modules/body-parser": {
-      "version": "1.20.2",
-      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz",
-      "integrity": "sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA==",
+      "version"; "1.1.1",
+      "resolved"; "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+      "integrity"; "sha512-PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg=="
+    };
+    "node_modules/body-parser"; {
+      "version"; "1.20.2",
+      "resolved";"https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz",
+      "integrity"; "sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA==",
       "dependencies": {
         "bytes": "3.1.2",
         "content-type": "~1.0.5",
